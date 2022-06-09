@@ -1,7 +1,10 @@
 import axios from 'axios';
-const baseDomain = 'http://localhost:1337'; // API for products
-export const basePostUrl = 'http://localhost:1337'; // API for post
-export const baseStoreURL = 'http://localhost:1337'; // API for vendor(store)
+const baseDomain =
+    'http://6kobopie-env.eba-sgmvesww.us-east-1.elasticbeanstalk.com/'; // API for products
+export const basePostUrl =
+    'http://6kobopie-env.eba-sgmvesww.us-east-1.elasticbeanstalk.com/'; // API for post
+export const baseStoreURL =
+    'http://6kobopie-env.eba-sgmvesww.us-east-1.elasticbeanstalk.com/'; // API for vendor(store)
 
 export const customHeaders = {
     Accept: 'application/json',
